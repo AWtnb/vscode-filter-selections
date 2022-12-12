@@ -23,11 +23,11 @@
     "commands": [
       {
         "command": "filter-selections.filter-inclusive",
-        "title": "filter-selections: filter INCLUSIVE"
+        "title": "filter-selections: INCLUSIVE"
       },
       {
         "command": "filter-selections.filter-exclusive",
-        "title": "filter-selections: filter EXCLUSIVE"
+        "title": "filter-selections: EXCLUSIVE"
       }
     ],
     "configuration": {
