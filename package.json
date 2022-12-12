@@ -6,7 +6,7 @@
   "publisher": "awtnb",
   "icon": "images/logo.png",
   "repository": {
-    "url": ""
+    "url": "https://github.com/AWtnb/vscode-filter-selections"
   },
   "engines": {
     "vscode": "^1.74.0"
