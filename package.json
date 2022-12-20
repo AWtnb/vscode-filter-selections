@@ -15,12 +15,22 @@
     "Other"
   ],
   "activationEvents": [
+    "onCommand:filter-selections.filter-upward",
+    "onCommand:filter-selections.filter-downward",
     "onCommand:filter-selections.filter-inclusive",
     "onCommand:filter-selections.filter-exclusive"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
+      {
+        "command": "filter-selections.filter-upward",
+        "title": "filter-selections: UPWARD"
+      },
+      {
+        "command": "filter-selections.filter-downward",
+        "title": "filter-selections: DOWNWARD"
+      },
       {
         "command": "filter-selections.filter-inclusive",
         "title": "filter-selections: INCLUSIVE"
