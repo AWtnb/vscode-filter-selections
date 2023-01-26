@@ -2,7 +2,7 @@
   "name": "filter-selections",
   "displayName": "filter-selections",
   "description": "filter multi-cursor selections with regexp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "awtnb",
   "icon": "images/logo.png",
   "repository": {
