@@ -1,7 +1,7 @@
 {
   "name": "filter-selections",
   "displayName": "filter-selections",
-  "description": "filter multi-cursor selections with regexp",
+  "description": "Select only necessary cursors in multi-cursor mode.",
   "version": "1.0.1",
   "publisher": "awtnb",
   "icon": "images/logo.png",
