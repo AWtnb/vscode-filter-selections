@@ -2,7 +2,7 @@
   "name": "filter-selections",
   "displayName": "filter-selections",
   "description": "Select only necessary cursors.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "awtnb",
   "icon": "images/logo.png",
   "repository": {
