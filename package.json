@@ -45,7 +45,7 @@
       "properties": {
         "filter-selections.caseSensitive": {
           "type": "boolean",
-          "default": false
+          "default": true
         }
       }
     }
