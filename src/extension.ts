@@ -76,9 +76,6 @@ const filterByRegExp = (editor: vscode.TextEditor, caseSensitive: boolean = true
   });
 };
 
-const config = vscode.workspace.getConfiguration("filter-selections");
-const caseSensitive: boolean = config.get("caseSensitive") || false;
-
 export function activate(context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerTextEditorCommand("filter-selections.filter-upward", (editor: vscode.TextEditor) => {
@@ -90,6 +87,9 @@ export function activate(context: vscode.ExtensionContext) {
       filterByPosition(editor, false);
     })
   );
+
+  const config = vscode.workspace.getConfiguration("filter-selections");
+  const caseSensitive: boolean = config.get("caseSensitive") || false;
   context.subscriptions.push(
     vscode.commands.registerTextEditorCommand("filter-selections.filter-inclusive", (editor: vscode.TextEditor) => {
       filterByRegExp(editor, caseSensitive, false);
