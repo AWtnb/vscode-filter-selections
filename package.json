@@ -28,19 +28,23 @@
     "commands": [
       {
         "command": "filter-selections.filter-upward",
-        "title": "filter-selections: UPWARD"
+        "title": "UPWARD",
+        "category": "filter-selections"
       },
       {
         "command": "filter-selections.filter-downward",
-        "title": "filter-selections: DOWNWARD"
+        "title": "DOWNWARD",
+        "category": "filter-selections"
       },
       {
         "command": "filter-selections.filter-inclusive",
-        "title": "filter-selections: INCLUSIVE"
+        "title": "INCLUSIVE",
+        "category": "filter-selections"
       },
       {
         "command": "filter-selections.filter-exclusive",
-        "title": "filter-selections: EXCLUSIVE"
+        "title": "EXCLUSIVE",
+        "category": "filter-selections"
       }
     ],
     "configuration": {
